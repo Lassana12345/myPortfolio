@@ -1,0 +1,88 @@
+/*Code de la page profil.HTML (à compléter)*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+    color: #fff;
+}
+    
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carte{
+    width: 90%;
+    max-width: 440px;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+    background: rgba(255,255,255,0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+    backdrop-filter: blur(5px);
+}
+.carte img{
+    width: 150px;
+    border-radius: 50% ;
+}
+.carte h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.carte p{
+    font-size: 20px;
+    margin: 10px;
+    max-width: 330px;
+}
+.carte .réseaux img {
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5s;
+}
+.carte .réseaux img:hover {
+    background: #6f0473;
+}
+.bouton{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: #bb06c1;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: 60px;
+padding: 0 10px;
+background: rgb(3,7,10);
+background: linear-gradient(90deg, rgba(3,7,10,1) 7%, rgba(23,48,55,1) 27%, rgba(9,18,23,1) 94%);
+
+}
+nav ul li{
+display: inline-block;
+margin: 0 5px;
+}
+nav ul li a{
+color: rgb(255, 255, 255);
+text-decoration: none;
+font-weight: bold;
+}
