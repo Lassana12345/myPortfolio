@@ -82,7 +82,7 @@ display: inline-block;
 margin: 0 5px;
 }
 nav ul li a{
-color: rgb(255, 255, 255);
+color: rgba(255, 255, 255, 0.589);
 text-decoration: none;
 font-weight: bold;
 }
