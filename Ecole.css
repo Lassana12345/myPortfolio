@@ -29,3 +29,20 @@ font-weight: bold;
     margin: top;
     text-align: center;
 }
+
+.glpi a {
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;
+}
+.AP a{
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;
+}
+
+.ap2 a {
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;  
+}
