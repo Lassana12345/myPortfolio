@@ -1,0 +1,100 @@
+body{
+    color: azure;
+    background-image: url(../image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
+
+}
+
+nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 100%;
+height: 60px;
+padding: 0 10px;
+background: rgb(3,7,10);
+background: linear-gradient(90deg, rgba(3,7,10,1) 7%, rgba(23,48,55,1) 27%, rgba(9,18,23,1) 94%);
+
+}
+nav ul li{
+display: inline-block;
+margin: 0 5px;
+}
+nav ul li a{
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bold;
+}
+
+.projets{
+    margin: top;
+    text-align: center;
+}
+
+.glpi a {
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;
+}
+.AP a{
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;
+}
+
+.ap2 a {
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bolder;  
+}
+
+.TS a {
+color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    font-weight: bolder;
+}
+/* Existing CSS styles */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+
+    /* Adjust body font color for better visibility */
+    body {
+        color: black;
+    }
+
+    /* Adjust navigation styles for smaller screens */
+    nav {
+        flex-direction: column;
+        /* Display navigation items vertically */
+        height: auto;
+        /* Allow navigation height to adjust as per content */
+        padding: 10px 0;
+        /* Add padding for better spacing */
+    }
+
+    nav ul li {
+        display: block;
+        /* Display navigation items in a block */
+        margin: 5px 0;
+        /* Add margin for better spacing */
+        text-align: center;
+        /* Center-align navigation items */
+    }
+
+    /* Adjust .projets heading for smaller screens */
+    .projets {
+        margin-top: 20px;
+        /* Adjust top margin for spacing */
+    }
+
+    /* Adjust link styles for smaller screens */
+    .glpi a,
+    .AP a,
+    .ap2 a,
+    .TS {
+        color: black;
+        /* Change link color for better visibility */
+        font-weight: bold;
+        /* Change font weight for emphasis */
+    }
+}

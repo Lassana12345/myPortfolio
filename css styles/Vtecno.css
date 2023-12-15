@@ -1,6 +1,6 @@
 body{
     color: azure;
-    background-image: url(./image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
+    background-image: url(../image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
 
 }
 
@@ -25,24 +25,21 @@ text-decoration: none;
 font-weight: bold;
 }
 
-.projets{
-    margin: top;
-    text-align: center;
+div a {
+color: rgba(255, 255, 255, 0.589);
+text-decoration: none;
+font-weight: bold;
+display: flex;
 }
 
-.glpi a {
-color: rgba(255, 255, 255, 0.589);
-text-decoration: none;
-font-weight: bolder;
-}
-.AP a{
-color: rgba(255, 255, 255, 0.589);
-text-decoration: none;
-font-weight: bolder;
-}
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    /* Adjust the styles for smaller screens here */
 
-.ap2 a {
-color: rgba(255, 255, 255, 0.589);
-text-decoration: none;
-font-weight: bolder;  
+    div a {
+        display: block;
+        /* Change the display for smaller screens */
+        margin-bottom: 10px;
+        /* Add spacing between anchor links */
+    }
 }

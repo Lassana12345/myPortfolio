@@ -11,7 +11,7 @@
 .ecran{
     width: 100%;
     height: 100vh;
-    background-image: url(image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
+    background-image: url(../image/Download\ Science\ atom\ molecule\ background\ \ for\ free.jfif);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -87,6 +87,28 @@ text-decoration: none;
 font-weight: bold;
 }
 
-@media (screen) {
-    
+/* Existing CSS styles */
+
+/* Media query for responsiveness */
+@media screen and (max-width: 768px) {
+    .carte {
+        width: 90%;
+        max-width: 90%;
+        padding: 30px;
+    }
+
+    .carte h2 {
+        font-size: 40px;
+    }
+
+    .carte p {
+        font-size: 18px;
+        max-width: 100%;
+    }
+
+    .carte img {
+        width: 120px;
+    }
+
+    /* Adjust other styles as needed for smaller screens */
 }
