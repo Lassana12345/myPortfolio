@@ -71,7 +71,7 @@ color: rgba(255, 255, 255, 0.589);
 
     /* Adjust body font color for better visibility */
     body {
-        color: black;
+        color: rgb(95, 91, 91);
     }
 
     /* Adjust navigation styles for smaller screens */
@@ -103,8 +103,10 @@ color: rgba(255, 255, 255, 0.589);
     .glpi a,
     .AP a,
     .ap2 a,
-    .TS {
-        color: black;
+    .ap3 a,
+    .TS,
+    .inventaire {
+        color: rgb(110, 107, 107);
         /* Change link color for better visibility */
         font-weight: bold;
         /* Change font weight for emphasis */
