@@ -64,8 +64,12 @@ color: rgba(255, 255, 255, 0.589);
 text-decoration: none;
 font-weight: bold;
 }
+.Stage a {
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    font-weight: bolder;
+}
 
-/* Existing CSS styles */
 
 /* Media query for responsiveness */
 @media screen and (max-width: 768px) {
